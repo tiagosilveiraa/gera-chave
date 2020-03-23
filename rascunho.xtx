@@ -1,0 +1,42 @@
+// Try edit message
+//anterior 35191005075884000167550080000722291000000015
+// proxima certa 35-1910-05075884000167-55-008-000072230-10000000-16
+const chave_anterior = '35191005075884000167550080000722291000000015';
+/*var chave_nova = getChaveNova();
+const chave_nova_reversa = chave_nova.split("").reverse().join("");
+//console.log(String(Number(chave_anterior.slice(25,34)) + 1).padStart(9, '0'))
+
+let resultadoMultiplicacao = [];
+let multiplicador = 2;
+let dv;
+
+
+
+function getChaveNova() {
+  numeroNovo = String(Number(chave_anterior.slice(25, 34)) + 1).padStart(9, '0')
+  return chave_anterior.slice(0, 25) + numeroNovo + chave_anterior.slice(34, 43)
+}
+
+function somarResultados(array) {
+  return array.reduce((a, b) => a + b, 0)
+}
+
+function gerarDV() {
+  for (let posChave = 0; posChave < chave_nova_reversa.length; posChave++) {
+    resultadoMultiplicacao.push(chave_nova_reversa[posChave] * multiplicador)
+    if (multiplicador < 9) {
+      multiplicador++
+    } else if (multiplicador >= 9) {
+      multiplicador = 2
+    }
+  }
+  dv = somarResultados(resultadoMultiplicacao)
+  if (dv % 11 == 0) {
+    return 0
+  } else {
+    return 11 - (dv % 11)
+  }
+}
+console.log(getChaveNova())//gerarDV())
+console.log(chave_anterior)
+//console.log(somarResultados(resultadoMultiplicacao))*/
